@@ -1133,3 +1133,17 @@ p {
 .service-card .text-link {
   margin-top: auto;
 }
+/* PROJEKTBILDER */
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
